@@ -1,5 +1,5 @@
 {
-    "name": "jrl-umi3218/ros",
+    "name": "ThomasMoulard/ros",
     "version": "1.0.0",
     "summary": "ROS management",
     "source": "git@github.com/jrl-umi3218/puppet-ros.git",

@@ -1,4 +1,4 @@
-name    'puppet-ros'
+name    'ThomasMoulard-ros'
 version '1.0.0'
 source  'https://github.com/jrl-umi3218/puppet-ros'
 author  'Thomas Moulard'

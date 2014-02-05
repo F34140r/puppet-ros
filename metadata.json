@@ -1,0 +1,21 @@
+{
+    "name": "jrl-umi3218/ros",
+    "version": "1.0.0",
+    "summary": "ROS management",
+    "source": "git@github.com/jrl-umi3218/puppet-ros.git",
+    "project_page": "http://github.com/jrl-umi3218/puppet-ros",
+    "author": "Thomas Moulard",
+    "license": "Apache-2.0",
+    "operatingsystem_support": [
+        "Ubuntu"
+    ],
+    "puppet_version": [
+        3.4
+    ],
+    "dependencies": [
+        {
+            "name": "puppetlabs/apt",
+            "version_requirement": ">= 1.4.0"
+        }
+    ]
+}

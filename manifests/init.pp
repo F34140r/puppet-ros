@@ -15,5 +15,5 @@
 class ros() {
   include ros::params
   include ros::install
-  include ros::rosdep
+#  include ros::rosdep
 }

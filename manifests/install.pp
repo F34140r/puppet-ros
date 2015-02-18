@@ -16,15 +16,15 @@ class ros::install {
       include_src  => false,
     }
 
-    package { $ros::params::ros_package:
-      ensure => present,
-    }
-    package { python-rosinstall:
-      ensure => present,
-    }
-    package { python-rosdep:
-      ensure => present,
-    }
+#    package { $ros::params::ros_package:
+#      ensure => present,
+#    }
+#    package { python-rosinstall:
+#      ensure => present,
+#    }
+#    package { python-rosdep:
+#     ensure => present,
+#    }
   }
 
   # Make sure ros user and group exist.

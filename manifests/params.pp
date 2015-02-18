@@ -21,6 +21,12 @@ class ros::params {
         13.04: {
           $ros_version     = "hydro"
         }
+      	14.04: { 
+	  $ros_version 	   = "indigo"
+ 	}
+	14.10: { 
+	  $ros_version 	   = "jade"
+	}
       }
 
       $ros_package     = "ros-${ros_version}-desktop-full"
